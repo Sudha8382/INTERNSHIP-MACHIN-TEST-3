@@ -1,0 +1,28 @@
+body {
+    background:#40403f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --color1:#40403f;
+    --color2:#fbf3ff;
+    --color3:#ac0dec;
+}
+.bg-color1{
+    background: var(--color1);
+}
+.bg-color2{
+    background: var(--color2);
+}
+.bg-color3{
+    background: var(--color3);
+}
+.btn-light {
+    border-radius: 20px;
+}
+.txt-mycolor{
+    color: var(--color3) !important;
+    ;
+}
